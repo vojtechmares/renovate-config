@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "timezone": "Europe/Prague",
+  "schedule": [
+    "before 3am on the first day of the month"
+  ],
+  "semanticCommits": "enabled",
+  "prCreation": "not-pending",
+  "stabilityDays": 5,
+  "labels": ["type: dependencies"]
+}
