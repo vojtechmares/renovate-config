@@ -7,5 +7,5 @@
   "semanticCommits": "enabled",
   "prCreation": "not-pending",
   "stabilityDays": 5,
-  "labels": ["type: dependencies"]
+  "labels": ["dependencies"]
 }
