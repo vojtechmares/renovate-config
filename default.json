@@ -2,7 +2,9 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "timezone": "Europe/Prague",
   "schedule": [
-    "before 3am on the first day of the month"
+    "after 10pm every weekday",
+    "before 5am every weekday",
+    "every weekend"
   ],
   "semanticCommits": "enabled",
   "prCreation": "not-pending",
