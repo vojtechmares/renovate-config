@@ -9,5 +9,6 @@
   "semanticCommits": "enabled",
   "prCreation": "not-pending",
   "stabilityDays": 5,
-  "labels": ["dependencies"]
+  "labels": ["dependencies"],
+  "extends": ["config:best-practices"]
 }
