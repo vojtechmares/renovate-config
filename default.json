@@ -10,5 +10,5 @@
   "prCreation": "not-pending",
   "stabilityDays": 5,
   "labels": ["dependencies"],
-  "extends": ["config:best-practices"]
+  "extends": ["config:recommended"]
 }
