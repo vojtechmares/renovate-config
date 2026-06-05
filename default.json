@@ -1,14 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
   "timezone": "Europe/Prague",
   "schedule": [
-    "after 10pm every weekday",
-    "before 5am every weekday",
-    "every weekend"
+    "after 5am and before 6am"
   ],
   "semanticCommits": "enabled",
   "prCreation": "not-pending",
-  "stabilityDays": 5,
-  "labels": ["dependencies"],
-  "extends": ["config:recommended"]
+  "minimumReleaseAge": "14 days",
+  "labels": ["dependencies"]
 }
