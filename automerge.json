@@ -9,10 +9,7 @@
   "lockFileMaintenance": {
     "automerge": true
   },
-  "minor": {
-    "automerge": true
-  },
-  "patch": {
-    "automerge": true
+  "major": {
+    "automerge": false
   }
 }
